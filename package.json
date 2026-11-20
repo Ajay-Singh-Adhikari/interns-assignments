@@ -1,0 +1,20 @@
+{
+  "name": "interns-assignments",
+  "version": "1.0.0",
+  "description": "Igniters Hub internship coding challenges (Node.js, Set 1)",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "challenge1": "node challenge-1-approximate-search/index.js",
+    "challenge2": "node challenge-2-arithmetic-expressions/index.js",
+    "challenge3": "node challenge-3-send-email/index.js",
+    "challenge4": "node challenge-4-palindrome-checker/index.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "nodemailer": "10.3.1"
+  }
+}
